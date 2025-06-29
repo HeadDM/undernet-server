@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.11.2" orientation="isometric" renderorder="right-down" width="55" height="55" tilewidth="64" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="115">
+ <properties>
+  <property name="Background" value="undernet"/>
+  <property name="Name" value="Undernet 3"/>
+  <property name="Song" value="/server/assets/music/2-22 - EXE 3 - DANGEROUS BLACK.ogg"/>
+ </properties>
+ <tileset firstgid="1" source="../assets/tiles/home_warp.tsx"/>
+ <tileset firstgid="6" source="../assets/ezlibs-assets/ezcheckpoints/bn5cubegreen_tile.tsx"/>
+ <tileset firstgid="10" source="../assets/objects/warp.tsx"/>
+ <tileset firstgid="16" source="../assets/objects/MysteryData.tsx"/>
+ <tileset firstgid="56" source="../assets/objects/Bn3UndernetFlashingWarp.tsx"/>
+ <tileset firstgid="62" source="../assets/objects/ProgramChipForm.tsx"/>
+ <tileset firstgid="78" source="../assets/objects/Undernet_pillar_segments_BN3.tsx"/>
+ <tileset firstgid="102" source="../assets/objects/UndernetStatue.tsx"/>
+ <tileset firstgid="103" source="../assets/objects/vendor_desk.tsx"/>
+ <tileset firstgid="107" source="../assets/tiles/invisible_tile.tsx"/>
+ <tileset firstgid="108" source="../assets/tiles/bn3_undernet_tiles.tsx"/>
+ <tileset firstgid="342" source="../assets/tiles/BN3 square custom.tsx"/>
+ <tileset firstgid="587" source="../assets/tiles/BN3UndernetWarpVariant1.tsx"/>
+ <tileset firstgid="596" source="../assets/tiles/bn3_arrows_undernet.tsx"/>
+ <tileset firstgid="608" source="../assets/tiles/default.tsx"/>
+ <tileset firstgid="611" source="../assets/tiles/exe3_undernet_ramps.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="55" height="55">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,133,2147483764,2147483800,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,2147483796,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483798,148,0,0,0,116,126,2147483765,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,2147483783,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,152,113,153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,133,2147483764,2147483800,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,116,126,2147483765,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,152,113,153,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,150,0,0,0,120,2147483776,2147483787,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,2147483796,2147483797,2147483798,0,129,113,2147483778,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,139,130,140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,120,2147483777,2147483763,2147483777,2147483787,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,129,113,126,113,2147483778,0,2147483785,135,136,136,136,136,136,136,137,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483796,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483798,148,0,0,0,0,0,
+0,116,126,113,126,2147483765,0,0,0,0,0,0,0,0,0,2147483783,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483783,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,
+0,129,113,126,113,2147483778,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,
+0,139,130,113,130,140,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483785,135,136,136,136,136,136,136,137,2147483796,2147483798,148,0,0,0,0,0,149,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,2147483785,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483783,0,0,150,0,613,0,0,0,150,0,0,0,0,0,
+0,0,0,2147483757,0,0,0,0,613,0,0,0,0,0,0,108,2147483796,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483798,2147483784,0,0,2147483796,2147483798,108,2147483796,2147483797,2147483797,2147483797,2147483797,2147483797,2147483798,148,0,
+0,0,0,2147483757,109,109,109,109,109,0,0,0,0,0,0,2147483783,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483797,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,2147483784,0,0,0,0,0,0,0,149,0,
+0,0,0,0,0,0,0,0,148,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,2147483784,0,0,0,0,0,0,0,149,0,
+0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483784,0,0,0,0,2147483784,0,0,0,0,0,0,0,149,0,
+0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483785,0,0,0,0,2147483785,0,0,0,0,0,0,0,149,0,
+0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108,136,136,136,137,108,2147483796,2147483797,2147483797,2147483797,2147483797,2147483797,2147483798,149,0,
+0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483783,0,0,0,0,0,0,0,149,0,
+0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,0,0,0,2147483784,0,0,0,0,0,613,0,149,0,
+0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,0,0,0,0,0,108,0,0,0,0,0,0,2147483784,0,0,0,0,0,108,0,149,0,
+0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,0,0,0,0,108,0,0,0,0,0,2147483796,2147483797,2147483798,2147483757,0,0,0,0,0,0,2147483784,0,0,0,0,0,2147483783,0,149,0,
+133,2147483764,2147483800,0,0,0,0,0,150,0,0,0,0,0,0,2147483785,0,0,0,0,0,0,0,0,0,0,0,0,0,148,0,0,0,0,0,2147483783,0,0,2147483757,0,0,0,0,0,0,2147483785,0,0,0,0,0,2147483785,0,149,0,
+116,113,113,135,136,136,136,137,108,2147483796,2147483797,2147483797,2147483797,2147483797,2147483798,108,2147483796,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483798,149,0,0,0,0,0,2147483784,0,0,2147483757,2147483796,2147483797,2147483797,2147483797,2147483797,2147483797,108,2147483796,2147483797,2147483797,2147483797,2147483798,108,0,149,0,
+152,113,153,0,0,0,0,0,148,0,0,0,0,0,0,148,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,2147483784,0,0,0,0,0,0,0,0,0,148,0,0,0,0,0,2147483783,0,150,0,
+0,2147483783,0,0,0,0,0,0,149,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,2147483785,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,2147483784,135,137,0,
+0,2147483784,0,0,0,0,0,0,149,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,133,2147483764,2147483777,113,2147483777,2147483764,2147483800,0,0,0,0,0,0,149,0,0,0,0,0,2147483784,0,0,0,
+0,2147483784,0,0,0,0,0,0,149,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,116,126,113,126,113,126,2147483765,0,0,0,0,0,0,149,0,0,0,0,0,2147483784,0,0,0,
+0,2147483784,0,0,0,0,0,0,149,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,150,0,0,129,113,126,113,126,113,2147483778,0,0,0,0,0,0,150,0,0,0,0,0,2147483785,0,0,0,
+0,2147483784,0,0,0,0,0,0,149,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483796,2147483797,2147483798,113,126,113,126,113,126,113,109,136,136,136,136,137,108,2147483796,2147483797,2147483797,2147483797,2147483798,108,0,0,0,
+0,2147483784,0,0,0,0,0,0,150,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,113,126,113,126,113,2147483778,0,0,0,0,0,0,148,0,0,0,0,0,0,0,0,0,
+0,2147483784,0,0,0,0,0,0,108,2147483796,2147483797,2147483797,2147483797,2147483797,2147483798,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,116,126,113,126,113,126,2147483765,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,
+0,2147483784,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,108,2147483796,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483797,2147483798,148,0,0,0,152,117,130,117,130,117,153,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,
+0,2147483785,135,136,136,136,136,137,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,150,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120,126,2147483787,0,0,0,0,0,0,0,0,
+0,0,0,0,0,120,2147483777,2147483764,2147483776,2147483764,2147483777,2147483787,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,113,2147483778,0,0,0,0,0,0,0,0,
+0,0,0,0,0,129,113,126,113,126,113,2147483778,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,139,130,140,0,0,0,0,0,0,0,0,
+0,0,0,0,0,116,126,113,126,113,126,2147483765,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,129,113,126,113,126,113,2147483778,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108,150,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,116,126,113,126,113,126,2147483765,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108,108,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,129,113,126,113,126,113,2147483778,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108,108,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,139,130,117,130,117,130,140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="42" type="Custom Warp" gid="588" x="776" y="40" width="64" height="40">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Target Area" value="UnderSquare"/>
+    <property name="Target Object" type="int" value="35"/>
+   </properties>
+  </object>
+  <object id="43" name="Evil Warp2" type="Custom Warp" gid="56" x="768" y="256" width="60" height="29">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Target Area" value="Undernet3"/>
+    <property name="Target Object" type="int" value="40"/>
+   </properties>
+  </object>
+  <object id="44" name="Wrong Warp" type="Custom Warp" gid="56" x="1440" y="1536" width="60" height="29">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Target Area" value="Undernet3"/>
+    <property name="Target Object" type="int" value="40"/>
+   </properties>
+  </object>
+  <object id="49" name="Wrong Warp" type="Custom Warp" gid="56" x="32" y="1152" width="60" height="29">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Target Area" value="Undernet3"/>
+    <property name="Target Object" type="int" value="40"/>
+   </properties>
+  </object>
+  <object id="50" name="Wrong Warp" type="Custom Warp" gid="56" x="896" y="1664" width="60" height="29">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Target Area" value="Undernet3"/>
+    <property name="Target Object" type="int" value="40"/>
+   </properties>
+  </object>
+  <object id="52" name="Wrong Warp" type="Custom Warp" gid="56" x="672" y="256" width="60" height="29">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Target Area" value="Undernet3"/>
+    <property name="Target Object" type="int" value="40"/>
+   </properties>
+  </object>
+  <object id="55" name="Jacob" type="NPC" x="105" y="464">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Text 1" value="Dodge it Mettaur and counter attack!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="56" name="Mark" type="NPC" x="168" y="559">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_black"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Mugshot" value="female-navi-exe5_purple"/>
+    <property name="Next 1" type="object" value="67"/>
+    <property name="Text 1" value="Oh no! Jacob! This doesn't look good!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="57" name="Victor" type="NPC" x="112" y="592">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Text 1" value="Mettaur, Use pick Swing!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="58" name="Sarah" type="NPC" x="168" y="495">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Next 1" type="object" value="67"/>
+    <property name="Text 1" value="Oh no! Jacob! This doesn't look good!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="59" name="John" type="NPC" x="48" y="528">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Text 1" value="Remember, the first to be deleted loses!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="60" name="Issabelle" type="NPC" x="168" y="527">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe4_orange"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Mugshot" value="female-navi-exe5_purple"/>
+    <property name="Next 1" type="object" value="67"/>
+    <property name="Text 1" value="Oh no! Jacob! This doesn't look good!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="61" name="Mettaur Virus" type="NPC" x="112" y="560">
+   <properties>
+    <property name="Asset Name" value="mettaur-bn45"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Next Waypoint 1" type="object" value="63"/>
+    <property name="Text 1" value="Metta Mettaaaa!!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="62" name="Mettaur Virus" type="NPC" x="112" y="496">
+   <properties>
+    <property name="Asset Name" value="mettaur-bn45"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Next Waypoint 1" type="object" value="65"/>
+    <property name="Text 1" value="Metta Mettaaaa!!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="63" name="PokePoint1" type="Waypoint" x="128" y="560">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Next Waypoint 1" type="object" value="64"/>
+    <property name="Wait Time" type="int" value="3"/>
+    <property name="Waypoint Type" value="first"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="64" name="PokePoint2" type="Waypoint" x="96" y="560">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Next Waypoint 1" type="object" value="63"/>
+    <property name="Wait Time" type="int" value="3"/>
+    <property name="Waypoint Type" value="first"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="65" name="PokePoint1" type="Waypoint" x="136" y="496">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="66"/>
+    <property name="Wait Time" type="int" value="1"/>
+    <property name="Waypoint Type" value="first"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="66" name="PokePoint2" type="Waypoint" x="88" y="496">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="65"/>
+    <property name="Wait Time" type="int" value="1"/>
+    <property name="Waypoint Type" value="first"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="67" name="Virus battle" type="Dialogue" x="16" y="400">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="female-navi-exe4_orange"/>
+    <property name="Next 1" type="object" value="68"/>
+    <property name="Text 1" value="They should be evenly matched, how can Jacob be so on the back foot?"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="68" name="Virus battle" type="Dialogue" x="16" y="392">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="heel-navi-exe4_black"/>
+    <property name="Next 1" type="object" value="69"/>
+    <property name="Text 1" value="Not every Virus is the same, some have different strengths than the others. Jacob's Mettaur may be a good attacker, but it can't take much damage. But Victor's Mettaur seems to have a sturdy trait, meaning it can tank MUCH more even without it's helmet. Even though this looks like it should be an even fight, victor's Mettaur has much more experience AND constitution. Jacob needs to hit hard and fast, but if he gets hit even 3 times, that's game over."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="69" name="Virus battle" type="Dialogue" x="16" y="384">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="female-navi-exe5_purple"/>
+    <property name="Text 1" value="Ugh, WHY DO YOU HAVE TO BE SUCH A NERD MARK!?"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="78" name="Jacob" type="NPC" x="1424" y="1520">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Next 1" type="object" value="79"/>
+    <property name="Text 1" value="I'm told that tking this warp is the fastest way to the UnderSquare, but there is a special trick to it."/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="79" name="The truth" type="Dialogue" x="1360" y="1520">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="player"/>
+    <property name="Next 1" type="object" value="80"/>
+    <property name="Text 1" value="What's the trick?"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="80" name="The truth" type="Dialogue" x="1360" y="1488">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="heel-navi-exe4_purple"/>
+    <property name="Next 1" type="object" value="81"/>
+    <property name="Text 1" value="Hell if i know! i just know this warp leads to a different warp. going to that warp can apparently take you to the square. but i don't know how!"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="81" name="The truth" type="Dialogue" x="1360" y="1456">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="player"/>
+    <property name="Text 1" value="Aren't *you* helpful..."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="84" name="Crazy" type="Dialogue" x="1512" y="592">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value=""/>
+    <property name="Text 1" value="(This navi is going insane. recommend going away soon.)"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="87" name="Forest" type="NPC" x="1048" y="1296">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_black"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Next Waypoint 1" type="object" value="88"/>
+    <property name="Text 1" value="Hey! Can't a guy just get a workout in without interuptions? Scram! I refuse to use daark chips to reach the peak of my power!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="88" name="Runner WP4" type="Waypoint" x="1072" y="1296">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Next Waypoint 1" type="object" value="90"/>
+    <property name="Wait Time" type="int" value="0"/>
+    <property name="Waypoint Type" value="first"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="89" name="Dan" type="NPC" x="1136" y="1360">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="Look at this numbskull running laps like a horse to traain for the ranking... lame! Just use dark chips genius!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="90" name="Runner WP4" type="Waypoint" x="1200" y="1296">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Next Waypoint 1" type="object" value="91"/>
+    <property name="Wait Time" type="int" value="0"/>
+    <property name="Waypoint Type" value="first"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="91" name="Runner WP4" type="Waypoint" x="1200" y="1424">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Next Waypoint 1" type="object" value="92"/>
+    <property name="Wait Time" type="int" value="0"/>
+    <property name="Waypoint Type" value="first"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="92" name="Runner WP4" type="Waypoint" x="1072" y="1424">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Next Waypoint 1" type="object" value="88"/>
+    <property name="Wait Time" type="int" value="0"/>
+    <property name="Waypoint Type" value="first"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="94" name="pain" type="Dialogue" x="16" y="1240">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value=""/>
+    <property name="Text 1" value="(This navi looks like they are about to cry.)"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="95" name="Disgruntled mafia member" type="NPC" x="16" y="1200">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Next 1" type="object" value="94"/>
+    <property name="Text 1" value="Oh fuck... not another wrong tuuuurrnn!!! Not again!!! aaaaaaaaaaaa...."/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="98" name="Can't, sorry." type="Dialogue" x="336" y="176">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="female-navi-exe5_purple"/>
+    <property name="Text 1" value="Aw... ok. i get it... you have stuff going on. stay safe..."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="99" name="Sure!" type="Dialogue" x="360" y="176">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="female-navi-exe5_purple"/>
+    <property name="Next 1" type="object" value="100"/>
+    <property name="Text 1" value="Really?! OMG thank you! It just gets so overwhelming and scary here because somewhere around here is a broken conveyor that drops you into the darkness below... So sometimes i just sit here and take a breath knowng this warp will take me back to the beginning all safe and sound... well as safe as you CAN be in a mafia run undernet. Yeah, the mafia runs this place now. It's a shame since the ranked navis used to run it in a way, using the fact that they are the strongest. The disorganization of the undernet coupled with the rank system is what let the undernet be the best place to get the good shit!"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="100" name="Sure!" type="Dialogue" x="376" y="176">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="player"/>
+    <property name="Next 1" type="object" value="101"/>
+    <property name="Text 1" value="Wait, you use dark chips? You look really good for a dark chip user!"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="101" name="Sure!" type="Dialogue" x="392" y="176">
+   <properties>
+    <property name="Dialogue Type" value="question"/>
+    <property name="Mugshot" value="female-navi-exe5_purple"/>
+    <property name="Next 1" type="object" value="102"/>
+    <property name="Next 2" type="object" value="103"/>
+    <property name="Text 1" value="PFFT No silly! The cyber weed! It's data designed to slow down our processing, letting our PET's and subsystems relax and not do as much work, which not only mkes us feel SUPER relaxed, but also makes us feel high because we aren't used to feeling that slow! In your own home, it's totally safe. Best not to use it here in the undernet proper because of all the dangers but it feels so GOOD. You know i should hook you up with some sometime! Anyway, where was i? OH YEAH! The rank system and the disorganization of the undernet used to make this place feel like the actual frontier of the net! But then the Boss came in. Some big wig mafia boss who organized everything and consolodated power for himself, and now the ranked navis and unafiliated criminals are starting to try and block areas off from the mafia. Some navis work FOR a ranked navi, and organize a little to protect their ranked navi. This is why there are rank locked cubes around, since it's to keep the mafia out. Smart play honestly, and I hope something happens to this mafia boss and makes this whole thing go away... OMG I've been yapping for so long, am i talking too much?!?!"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="102" name="Kinda, yeah." type="Dialogue" x="400" y="160">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="female-navi-exe5_purple"/>
+    <property name="Text 1" value="Oh god, i'm so sorry, i'll let you go... thanks for listening as long as you did... "/>
+   </properties>
+   <point/>
+  </object>
+  <object id="103" name="No, you're ok!" type="Dialogue" x="408" y="184">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="female-navi-exe5_purple"/>
+    <property name="Next 1" type="object" value="104"/>
+    <property name="Text 1" value="Really? I wasn't making your ears bleed? Damn, you must have a lot of patience putting up with me... Look, i'll make it up to you. How about you come over to my place and i can hook you up with some of that cyber weed i talked about? Maybe we can sit and enjoy it together, and maybe I can help you out somehow?      "/>
+   </properties>
+   <point/>
+  </object>
+  <object id="104" name="No, you're ok!" type="Dialogue" x="424" y="184">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="player"/>
+    <property name="Next 1" type="object" value="105"/>
+    <property name="Text 1" value="That sounds really nice actually!"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="105" name="No, you're ok!" type="Dialogue" x="440" y="184">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="female-navi-exe5_purple"/>
+    <property name="Next 1" type="object" value="106"/>
+    <property name="Text 1" value="Awesome! My HP is in the Down Right exit to undernet 1! you could just jack out from here and jack back in to go faste- WAIT! WHY DIDN'T I JUST DO THAT?! PFFT! I'll jack out in a second to go to my HP. See you whenever you want to show up friend!"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="106" name="No, you're ok!" type="Dialogue" x="456" y="184">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value=""/>
+    <property name="Text 1">She hands you a .txt file. it reads:
+
+691337420 - HP passcode.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="113" name="yaaas queen" type="Dialogue" x="976" y="720">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="female-navi-exe4_orange"/>
+    <property name="Text 1" value="Like, I'm so like ready to party! like, it's going to be like the best night like ever! if we ever get out of here."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="114" name="Crazy guy" type="NPC" x="752" y="240">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_navy"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Next 1" type="object" value="84"/>
+    <property name="Text 1" value="That was it?!?! THAT WAS THE SOLUTION?!?! AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!!!!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Tile Layer 2" width="55" height="55" offsetx="0" offsety="-16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="Object Layer 2" offsetx="0" offsety="-16"/>
+ <layer id="4" name="Tile Layer 3" width="55" height="55" offsetx="0" offsety="-32">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="Object Layer 3" offsetx="0" offsety="-32"/>
+ <layer id="5" name="Tile Layer 4" width="55" height="55" offsetx="0" offsety="-48">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,2147483900,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483902,2147483900,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483902,252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483887,0,0,0,0,0,0,0,0,0,0,0,0,2147483887,0,0,0,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,254,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,2147484268,212,239,240,240,240,240,240,240,241,212,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483887,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,237,2147483868,2147483881,2147483868,2147483904,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483889,0,0,0,0,0,0,0,220,230,217,230,2147483869,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,252,239,240,240,240,240,241,212,239,240,240,240,241,212,2147483900,2147483901,2147483901,2147483901,2147483902,212,213,232,217,217,217,2147483882,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,253,0,0,0,0,0,0,2147483861,0,0,0,0,0,2147483887,0,0,0,0,0,0,0,220,230,217,230,2147483869,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,253,0,0,0,0,0,0,2147483861,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,256,221,234,221,257,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,253,0,0,0,0,0,0,2147483861,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,253,0,0,0,0,0,224,2147483880,2147483891,0,0,0,0,2147483889,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,253,0,0,0,0,0,233,217,2147483882,0,0,0,0,212,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,253,0,0,0,0,0,243,234,244,0,0,0,0,2147483861,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,0,0,0,0,0,2147483861,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,0,0,0,0,0,2147483861,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,0,0,0,0,0,2147483861,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483889,0,0,0,0,0,0,0,0,0,0,0,0,2147483889,0,0,0,0,0,0,0,254,0,0,0,0,0,0,0,0,0,0,0,0,2147483861,213,213,213,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,212,239,240,240,240,240,240,240,240,240,240,240,241,212,239,240,240,240,240,240,241,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,611,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,611,0,0,0,0,0,0,0,0,0,0,0,0,252,0,0,0,0,0,0,0,252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,0,620,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,253,0,0,0,0,0,212,213,213,213,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,253,0,0,0,0,0,2147483861,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,253,0,0,0,0,0,2147483861,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,253,0,0,0,0,0,252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,254,0,0,0,0,0,253,0,0,212,213,213,213,0,0,0,0,0,0,0,0,0,613,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,254,0,0,0,0,0,0,0,212,0,0,0,0,0,253,0,0,611,0,0,2147483887,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,237,2147483868,2147483881,217,2147483881,2147483868,2147483904,0,0,0,0,611,0,0,0,0,0,253,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,220,230,217,230,217,230,2147483869,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,233,217,230,217,230,217,2147483882,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,220,230,217,230,217,230,217,2147483900,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483901,2147483902,254,0,0,0,0,0,2147483888,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,233,217,230,217,230,217,2147483882,0,0,0,0,0,0,0,0,0,0,2147483900,2147483901,2147483901,2147483901,2147483901,2147483902,2147483889,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,220,230,217,230,217,230,2147483869,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,256,221,234,221,234,221,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="11" name="Object Layer 4" offsetx="0" offsety="-48">
+  <object id="45" name="Wrong Warp" type="Custom Warp" gid="56" x="1664" y="352" width="60" height="29">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Target Area" value="Undernet3"/>
+    <property name="Target Object" type="int" value="40"/>
+   </properties>
+  </object>
+  <object id="71" name="Sue" type="NPC" x="656" y="1136">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Text 1" value="(Is doing yoga)"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="72" name="Mark" type="NPC" x="656" y="1104">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_black"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Text 1" value="(Is doing yoga)"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="73" name="Sally" type="NPC" x="688" y="1072">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Text 1" value="(Is doing Yoga)"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="74" name="Matthew" type="NPC" x="688" y="1136">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="Fuck, Wait I didn't wanna join yoga i just took a wrong turn!! I don't want to be here!! CURSE YOU CONVEYOR MAAAAAAAAAAZZZEEEE!!!!!!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="75" name="Jacob" type="NPC" x="752" y="1104">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Text 1" value="And take a deep breath in as we go into warrior 2 pose..."/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="76" name="Alice" type="NPC" x="688" y="1104">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe4_orange"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Text 1" value="(Is doing yoga)"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="77" name="Selene" type="NPC" x="656" y="1072">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Text 1" value="(Is doing yoga)"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="6" name="Tile Layer 5" width="55" height="55" offsetx="0" offsety="-64">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,620,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="Object Layer 5" offsetx="0" offsety="-64"/>
+ <layer id="7" name="Tile Layer 6" width="55" height="55" offsetx="0" offsety="-80">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,620,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="13" name="Object Layer 6" offsetx="0" offsety="-80"/>
+ <layer id="8" name="Tile Layer 7" width="55" height="55" offsetx="0" offsety="-96">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160,2147484266,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,200,187,188,188,188,188,188,188,189,0,0,0,0,0,0,0,0,0,2147483809,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,200,0,0,0,0,0,0,0,2147483835,0,0,0,0,0,0,0,0,0,2147483809,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,201,0,0,0,0,0,0,0,2147483836,0,0,0,0,0,0,0,0,0,2147483809,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,201,0,200,187,188,188,189,0,2147483836,0,0,0,0,0,0,0,0,0,2147483809,161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,201,0,201,160,160,160,2147483835,0,2147483836,0,0,0,0,0,0,0,0,0,0,2147483809,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,201,0,202,160,160,160,2147483836,0,2147483836,0,0,0,0,0,0,0,0,0,0,2147483809,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,201,0,2147483848,2147483850,2147483834,160,2147483836,0,2147483836,0,0,0,0,0,0,0,0,0,0,2147483809,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,202,0,0,0,0,0,2147483836,0,2147483836,0,0,0,0,0,0,0,0,0,0,2147483809,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2147483848,2147483849,2147483849,2147483849,2147483849,2147483850,2147483837,0,2147483836,0,0,0,0,0,0,0,160,161,161,173,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483837,0,0,0,0,0,0,0,2147483809,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160,187,188,188,188,188,188,188,189,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,0,0,0,0,0,0,0,2147483835,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,201,0,0,0,0,0,0,0,2147483836,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,201,0,0,0,0,0,0,0,2147483836,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160,2147483848,2147483849,2147483849,2147483849,2147483849,2147483849,2147483849,2147483849,2147483850,200,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,201,0,0,0,0,0,0,0,2147483836,0,0,0,0,0,0,0,0,0,0,160,161,161,161,173,0,0,0,0,0,0,0,0,0,201,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,201,0,0,0,0,0,0,0,2147483836,0,0,0,0,0,0,0,0,0,0,2147483809,0,0,0,2147483809,0,0,0,172,2147483829,2147483839,0,0,0,201,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,201,0,0,0,0,0,0,0,2147483837,0,0,0,0,0,0,0,0,0,0,618,0,0,0,2147483835,0,0,0,181,165,178,161,200,0,201,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160,2147483848,2147483849,2147483849,2147483849,2147483849,2147483849,2147483850,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483836,0,0,0,191,182,192,0,201,0,201,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,0,0,0,0,0,0,0,2147483809,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483836,0,0,0,0,0,0,0,201,0,201,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,201,0,0,0,0,0,0,0,2147483809,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483836,0,0,0,0,0,0,0,202,0,202,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,201,0,0,0,0,0,0,0,2147483809,0,0,0,0,172,2147483829,2147483816,2147483829,2147483839,0,0,0,0,0,2147483837,187,188,188,188,188,188,189,160,161,161,602,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,201,0,0,0,0,0,0,0,2147483809,0,0,0,0,181,165,178,165,2147483830,0,0,0,0,0,0,0,0,0,0,0,0,0,0,611,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,201,0,0,0,0,0,0,0,2147483809,161,161,161,161,165,178,165,178,2147483817,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,202,0,0,0,0,0,0,0,0,0,0,0,0,181,165,178,165,2147483830,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483848,2147483849,2147483849,2147483849,2147483849,2147483849,2147483849,2147483850,177,0,0,0,0,191,182,169,182,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="14" name="Object Layer 7" offsetx="0" offsety="-96">
+  <object id="40" name="Evil Warp" type="Custom Warp" gid="56" x="1504" y="704" width="60" height="29">
+   <properties>
+    <property name="Direction" value="Down Right"/>
+    <property name="Target Area" value="Undernet3"/>
+    <property name="Target Object" type="int" value="43"/>
+   </properties>
+  </object>
+  <object id="48" name="Wrong Warp" type="Custom Warp" gid="56" x="480" y="352" width="60" height="29">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Target Area" value="Undernet3"/>
+    <property name="Target Object" type="int" value="40"/>
+   </properties>
+  </object>
+  <object id="53" name="To Undernet 2" type="Radius Warp" x="1704" y="848">
+   <properties>
+    <property name="Activation Radius" value="0.6"/>
+    <property name="Arrival Animation" value="arrow_down_right_in"/>
+    <property name="Leave Animation" value="arrow_down_right_out"/>
+    <property name="Target Area" value="Undernet2"/>
+    <property name="Target Object" value="41"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="54" name="To Abyss" type="Radius Warp" x="856" y="976">
+   <properties>
+    <property name="Activation Radius" value="0.3"/>
+    <property name="Leave Animation" value="fall_in"/>
+    <property name="Target Area" value="AbyssNet"/>
+    <property name="Target Object" value="38"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="83" name="Crazy guy" type="NPC" x="1552" y="688">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Next 1" type="object" value="84"/>
+    <property name="Text 1" value="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!!!  WHY IS THIS FUCKING AREA SO FUCKING HARD!!! AAAAAAAAAA!!!!"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="86" name="Disgruntled mafia member" type="NPC" x="872" y="784">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_black"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1">Another fucking wrong turn! Mother fucking piece of shit!
+
+
+fuck
+fuck
+fuck
+fuck
+fuck
+FUCK
+FUUUUUCCKK!!!!!!!!</property>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="97" name="Patricia" type="NPC" x="464" y="335">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="question"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next 1" type="object" value="99"/>
+    <property name="Next 2" type="object" value="98"/>
+    <property name="Text 1" value="Whoa! Hey! Looks like you managed to escape the conveyor too! OMG I've been stuck here becuse i'm waiting for a friend! Can I chat with you for a while please?"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="111" name="Jenny" type="NPC" x="1104" y="912">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe4_orange"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Mugshot" value="female-navi-exe5_purple"/>
+    <property name="Next 1" type="object" value="113"/>
+    <property name="Text 1" value="Like, totes down to get down queen, you slay?"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="112" name="Claire" type="NPC" x="1104" y="888">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Next 1" type="object" value="113"/>
+    <property name="Text 1" value="Like, totes down to get down queen, you slay?"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>
