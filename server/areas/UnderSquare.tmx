@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.11.2" orientation="isometric" renderorder="right-down" width="70" height="40" tilewidth="64" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="102">
+<map version="1.10" tiledversion="1.11.2" orientation="isometric" renderorder="right-down" width="70" height="40" tilewidth="64" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="142">
  <properties>
   <property name="Background" value="undernet"/>
   <property name="Name" value="UnderSquare"/>
@@ -147,8 +147,19 @@
   <object id="37" type="Custom Warp" gid="588" x="1512" y="1096" width="64" height="40">
    <properties>
     <property name="Direction" value="Up Left"/>
-    <property name="Target Area" value="default"/>
-    <property name="Target Object" type="int" value="15"/>
+    <property name="Target Area" value="Undernet6"/>
+    <property name="Target Object" type="int" value="76"/>
+   </properties>
+  </object>
+  <object id="127" type="Checkpoint" gid="6" x="1456" y="1040" width="42" height="44">
+   <properties>
+    <property name="Description" value="This cube blocks the path."/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Password" value="Unmitigated Sorrow"/>
+    <property name="Unlock Failed Message" value="You must travel ahead to get behind..."/>
+    <property name="Unlocked Message" value="The cube unlocks"/>
+    <property name="Unlocking Animation Time" value="0.75"/>
+    <property name="Unlocking Asset Name" value="bn5cubegreen_bot"/>
    </properties>
   </object>
  </objectgroup>
@@ -309,7 +320,8 @@
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Gonna be setting up a shop here soon, so save some cash."/>
+    <property name="Next 1" type="object" value="104"/>
+    <property name="Text 1" value="Welcome to the undershop. We have a small but valuble supply. Interested?"/>
     <property name="Wait Time" value="0"/>
    </properties>
    <point/>
@@ -377,9 +389,43 @@
    </properties>
    <point/>
   </object>
-  <object id="92" gid="103" x="1850.5" y="528.5" width="35" height="45"/>
-  <object id="93" gid="104" x="1883" y="528" width="35" height="45"/>
-  <object id="94" gid="105" x="1899.5" y="523.5" width="35" height="45"/>
+  <object id="92" gid="103" x="1850.5" y="529.5" width="35" height="45">
+   <properties>
+    <property name="Interact Relay" type="object" value="85"/>
+   </properties>
+  </object>
+  <object id="93" gid="104" x="1883" y="528" width="35" height="45">
+   <properties>
+    <property name="Interact Relay" type="object" value="85"/>
+   </properties>
+  </object>
+  <object id="94" gid="105" x="1899.5" y="523.5" width="35" height="45">
+   <properties>
+    <property name="Interact Relay" type="object" value="85"/>
+   </properties>
+  </object>
+  <object id="104" name="UnderShop" type="dialogue" x="1963.5" y="440.5">
+   <properties>
+    <property name="Dialogue Type" value="shop"/>
+    <property name="Item 1" type="object" value="106"/>
+    <property name="Item 2" type="object" value="107"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="106" name="Rank Medal" x="1856" y="408">
+   <properties>
+    <property name="Name" value="Rank Medal"/>
+    <property name="Price" type="int" value="75000"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="107" name="Unlocker" x="1887" y="377">
+   <properties>
+    <property name="Name" value="Unlocker"/>
+    <property name="Price" type="int" value="25000"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
  <layer id="6" name="Tile Layer 5" width="70" height="40" offsetx="0" offsety="-64">
   <data encoding="csv">
@@ -520,8 +566,12 @@
   <object id="22" name="RankMan" type="NPC" x="1304" y="376">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
-    <property name="Dialogue Type" value="first"/>
+    <property name="Dialogue Type" value="itemcheck"/>
     <property name="Direction" value="Down Left"/>
+    <property name="Item 1" type="object" value="119"/>
+    <property name="Next 1" type="object" value="116"/>
+    <property name="Next 2" type="object" value="117"/>
+    <property name="Take Item" type="bool" value="true"/>
     <property name="Text 1" value="Im still setting up. leave for now."/>
     <property name="Wait Time" value="0"/>
    </properties>
@@ -763,7 +813,7 @@ Actually, Go ahead, Piss him off! Then I'll have a reason to hunt you! </propert
     <property name="Asset Name" value="official-navi-exe4_orange"/>
     <property name="Dialogue Type" value="itemcheck"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Dont Face Player" type="bool" value="false"/>
     <property name="Item 1" type="object" value="101"/>
     <property name="Mugshot" value="player"/>
     <property name="Next 1" type="object" value="100"/>
@@ -799,19 +849,183 @@ Actually, Go ahead, Piss him off! Then I'll have a reason to hunt you! </propert
    </properties>
    <point/>
   </object>
-  <object id="100" name="Burk's entry 6" type="Dialogue" x="1712" y="80">
+  <object id="100" name="quest 1 check 1" type="Dialogue" x="1768" y="88">
    <properties>
-    <property name="Dialogue Type" value="first"/>
+    <property name="Dialogue Type" value="itemcheck"/>
+    <property name="Item 1" type="object" value="140"/>
     <property name="Mugshot" value="official-navi-exe4_orange"/>
+    <property name="Next 1" type="object" value="129"/>
+    <property name="Next 2" type="object" value="128"/>
     <property name="Text 1" value="Oh good, you arrived! And i see the badge to boot! I'm preparing something to deal with this mafia issue, and i think you might be just the navi to help me. I will organize my materials and get back to you about it."/>
    </properties>
    <point/>
   </object>
-  <object id="101" name="Badge" type="Item" x="1808" y="16">
+  <object id="101" name="Badge" type="Item" x="2224" y="240">
    <properties>
     <property name="Description" value="A badge, almost like a deputy badge."/>
     <property name="Name" value="Badge"/>
     <property name="Type" value="keyitem"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="115" name="Special Rank" type="Item" x="1232" y="176">
+   <properties>
+    <property name="Name" value="Special Rank"/>
+    <property name="Type" value="item"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="116" name="Rank up time" type="Dialogue" x="1264" y="240">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Next 1" type="object" value="118"/>
+    <property name="Text 1" value="Looks like you have 10 rank medals... very well. I bestow upon you a Special rank."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="117" name="not enough medals" type="Dialogue" x="1296" y="208">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Text 1" value="You do not posess enough Rank Medals. Come back another time."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="118" name="Rank Get" type="Dialogue" x="1208" y="208">
+   <properties>
+    <property name="Dialogue Type" value="item"/>
+    <property name="Item 1" type="object" value="115"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="119" name="Rank Medal" type="Item" x="1328" y="208">
+   <properties>
+    <property name="Amount" type="int" value="2"/>
+    <property name="Name" value="Rank Medal"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="121" name="Rank Medal" type="Mystery Option" x="1360" y="240">
+   <properties>
+    <property name="Amount" type="int" value="10"/>
+    <property name="Name" value="Rank Medal"/>
+    <property name="Type" value="item"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="128" name="quest 1 start" type="Dialogue" x="1872" y="16">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="official-navi-exe4_orange"/>
+    <property name="Next 1" type="object" value="132"/>
+    <property name="Text 1" value="Oh good, you arrived! And i see the badge to boot! "/>
+   </properties>
+   <point/>
+  </object>
+  <object id="129" name="Burk's entry 6" type="Dialogue" x="1696" y="80">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="official-navi-exe4_orange"/>
+    <property name="Text 1" value="I see you now have the 10th rank. Good. now, you can go to the area ranked navis have to themselves if you can find it. but i doubt they will be there yet. come back later and i will have your next objective."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="130" name="Quest 1 start" type="Item" x="2224" y="16">
+   <properties>
+    <property name="Name" value="Quest 1 start"/>
+    <property name="Type" value="item"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="132" name="quest 1 start" type="Dialogue" x="1856" y="16">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="player"/>
+    <property name="Next 1" type="object" value="133"/>
+    <property name="Text 1" value="Ok, what was it you needed?"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="133" name="quest 1 start" type="Dialogue" x="1840" y="16">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="official-navi-exe4_orange"/>
+    <property name="Next 1" type="object" value="134"/>
+    <property name="Text 1">Im looking to take out the Mafia. 
+
+Now i know by your expression that it seems impossible. members are everywhere. However, not everyone here is in with the mob. I need you to speak to the Ranked Navis.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="134" name="quest 1 start" type="Dialogue" x="1824" y="16">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="player"/>
+    <property name="Next 1" type="object" value="135"/>
+    <property name="Text 1" value="Aren't they like... super elusive to find though?"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="135" name="quest 1 start" type="Dialogue" x="1808" y="16">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="official-navi-exe4_orange"/>
+    <property name="Next 1" type="object" value="136"/>
+    <property name="Text 1" value="Yes, but i hear Rank 10 is looking to leave the game. If you could get your hands on that rank 10, you SHOULD be able to speak with any of the other ranked navis, and help coordinate an attack against the mafia."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="136" name="quest 1 start" type="Dialogue" x="1792" y="16">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="player"/>
+    <property name="Next 1" type="object" value="137"/>
+    <property name="Text 1">WHOA!!!!!!
+
+Whoa whoa whoa HOLD ON. you want ME to become a ranked navi?!</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="137" name="quest 1 start" type="Dialogue" x="1776" y="16">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="official-navi-exe4_orange"/>
+    <property name="Next 1" type="object" value="139"/>
+    <property name="Text 1" value="Hey, on one hand, you get to help shut down a massive criminal organization, which will mean compensation. Further, being a ranked navi is a sign of power. Navis that would pay you no mind will show you some respect, EVEN some of the mafia members. Go find rank 10, do whatever it takes to gain his rank, and come back to me. Got it?"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="138" name="quest 1 start" type="Dialogue" x="1720" y="8">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="player"/>
+    <property name="Text 1" value="...yeah, ok. I'll go get that rank!"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="139" name="quest 1 check 2" type="Dialogue" x="1752" y="8">
+   <properties>
+    <property name="Dialogue Type" value="itemcheck"/>
+    <property name="Item 1" type="object" value="130"/>
+    <property name="Mugshot" value="official-navi-exe4_orange"/>
+    <property name="Next 1" type="object" value="138"/>
+    <property name="Next 2" type="object" value="141"/>
+    <property name="Text 1" value="Oh good, you arrived! And i see the badge to boot! I'm preparing something to deal with this mafia issue, and i think you might be just the navi to help me. I will organize my materials and get back to you about it."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="140" name="Quest 1 end" type="Item" x="2192" y="16">
+   <properties>
+    <property name="Name" value="Quest 1 end"/>
+    <property name="Type" value="item"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="141" name="quest 1 give" type="Dialogue" x="1736" y="8">
+   <properties>
+    <property name="Dialogue Type" value="item"/>
+    <property name="Dont Notify" type="bool" value="true"/>
+    <property name="Item 1" type="object" value="130"/>
+    <property name="Next 1" type="object" value="138"/>
    </properties>
    <point/>
   </object>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.1" name="MysteryData" tilewidth="20" tileheight="43" tilecount="40" columns="8">
+<tileset version="1.10" tiledversion="1.11.2" name="MysteryData" tilewidth="20" tileheight="43" tilecount="40" columns="8">
  <image source="MysteryData.png" width="160" height="215"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="4.5" y="37.75" width="11" height="4.875">
+   <object id="1" x="3" y="36" width="13.5" height="9.25">
     <ellipse/>
    </object>
   </objectgroup>
@@ -20,7 +20,7 @@
  </tile>
  <tile id="8">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="4.5" y="37.75" width="10.75" height="4.75">
+   <object id="3" x="3" y="36" width="13.5" height="9.25">
     <ellipse/>
    </object>
   </objectgroup>
@@ -37,7 +37,7 @@
  </tile>
  <tile id="16">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="4.125" y="37.875" width="11.375" height="4.75">
+   <object id="2" x="3" y="36" width="13.5" height="9.25">
     <ellipse/>
    </object>
   </objectgroup>
@@ -54,7 +54,7 @@
  </tile>
  <tile id="24">
   <objectgroup draworder="index" id="4">
-   <object id="5" x="4.125" y="38" width="11.75" height="4.75">
+   <object id="6" x="3" y="36" width="13.5" height="9.25">
     <ellipse/>
    </object>
   </objectgroup>
@@ -71,7 +71,7 @@
  </tile>
  <tile id="32">
   <objectgroup draworder="index" id="6">
-   <object id="5" x="4.18182" y="37.8182" width="11.8182" height="4.54545">
+   <object id="6" x="3" y="36" width="13.5" height="9.25">
     <ellipse/>
    </object>
   </objectgroup>

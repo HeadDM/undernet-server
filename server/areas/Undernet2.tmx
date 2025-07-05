@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.11.2" orientation="isometric" renderorder="right-down" width="55" height="55" tilewidth="64" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="105">
+<map version="1.10" tiledversion="1.11.2" orientation="isometric" renderorder="right-down" width="55" height="55" tilewidth="64" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="153">
  <properties>
   <property name="Background" value="undernet"/>
+  <property name="Mystery Data Maximum" value="6"/>
+  <property name="Mystery Data Minimum" value="3"/>
   <property name="Name" value="Undernet 2"/>
   <property name="Song" value="/server/assets/music/2-22 - EXE 3 - DANGEROUS BLACK.ogg"/>
  </properties>
@@ -25,24 +27,24 @@
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120,2147483777,2147483764,2147483777,2147483787,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,113,126,113,2147483778,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108,109,109,109,109,115,126,113,126,2147483765,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,129,113,126,113,2147483778,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,139,130,117,130,140,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484261,108,109,109,109,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,133,2147483764,2147483800,0,0,0,0,0,0,0,0,0,120,126,2147483787,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,116,113,2147483765,0,0,0,0,0,0,0,0,0,129,113,2147483803,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120,2147483777,2147483764,2147483777,2147483787,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,113,126,113,2147483778,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108,109,109,109,109,115,126,113,126,2147483765,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,129,113,126,113,2147483778,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,139,130,117,130,140,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484261,108,109,109,109,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,133,2147483764,2147483800,0,0,0,0,0,0,0,0,0,120,126,2147483792,107,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,116,113,2147483765,0,0,0,0,0,0,0,0,0,129,113,2147483778,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,152,113,153,0,0,0,0,0,0,0,0,0,139,126,140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,108,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,2147483757,0,0,0,0,613,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,2147483757,109,109,109,109,109,109,109,109,109,109,121,0,0,0,0,0,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,109,109,109,109,109,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2147483757,109,109,109,109,109,109,109,109,109,109,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,109,109,109,109,109,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,108,109,109,109,109,109,109,109,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483757,0,0,0,0,0,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484261,2147483757,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -125,7 +127,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Next 1" type="object" value="43"/>
-    <property name="Text 1" value="There is a security cube up ahead, only availible for entry by ranked navis... I'd turn around. Nothing else to see here."/>
+    <property name="Text 1" value="There is a security cube up ahead, only available for entry by ranked navis... I'd turn around. Nothing else to see here."/>
     <property name="Wait Time" value="0"/>
    </properties>
    <point/>
@@ -159,9 +161,9 @@ The Ranking is the way of the undernet, the power of the strong.
 
 ... at least...
 
-That's whaat it's SUPPOSED to be...
+That's what it's SUPPOSED to be...
 
-But basically, the Ranking sees that there re always 10 ranked navis at any time. You as an unranked navi can only challenge the rank 10 navi. They can either give it to you for doing a task, or you must defeat them in combat. Either way, once you beat the navi, you take their place in the ranking, and they take yours. Be careful though, this will lead to rivalry amongst the ranked navis. </property>
+But basically, the Ranking sees that there are always 10 ranked navis at any time. You as an unranked navi can only challenge the rank 10 navi. They can either give it to you for doing a task, or you must defeat them in combat. Either way, once you beat the navi, you take their place in the ranking, and they take yours. Be careful though, this will lead to rivalry amongst the ranked navis.  </property>
    </properties>
    <point/>
   </object>
@@ -214,6 +216,243 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
     <property name="Dialogue Type" value="first"/>
     <property name="Mugshot" value="punk-navi-exe6_navy"/>
     <property name="Text 1" value="It's just... the boss has gotten more rough lately with the gang business. More shakedowns than ever... I wonder what the boss is up to, and if maaybe something he did is causing people like Darin to not deliver..."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="105" name="400 zennies" type="Mystery Option" x="1448" y="936">
+   <properties>
+    <property name="Amount" type="int" value="200"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="106" name="250 zennies" type="Mystery Option" x="1440" y="960">
+   <properties>
+    <property name="Amount" type="int" value="100"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="107" name="150 zennies" type="Mystery Option" x="1440" y="984">
+   <properties>
+    <property name="Amount" type="int" value="50"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="108" name="random item" type="Mystery Option" x="1536" y="992">
+   <properties>
+    <property name="Next 1" type="object" value="110"/>
+    <property name="Next 2" type="object" value="110"/>
+    <property name="Next 3" type="object" value="109"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="109" name="rare" type="Mystery Option" x="1536" y="1056">
+   <properties>
+    <property name="Next 1" type="object" value="111"/>
+    <property name="Next 2" type="object" value="113"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="110" name="common" type="Mystery Option" x="1496" y="928">
+   <properties>
+    <property name="Next 1" type="object" value="107"/>
+    <property name="Next 2" type="object" value="106"/>
+    <property name="Next 3" type="object" value="105"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="111" name="500 zennies" type="Mystery Option" x="1456" y="1056">
+   <properties>
+    <property name="Amount" type="int" value="500"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="112" name="Rank Medal" type="Mystery Option" x="1424" y="1024">
+   <properties>
+    <property name="Name" value="Rank Medal"/>
+    <property name="Type" value="item"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="113" name="extra rare" type="Mystery Option" x="1496" y="1024">
+   <properties>
+    <property name="Next 1" type="object" value="110"/>
+    <property name="Next 2" type="object" value="114"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="114" name="extra extra rare" type="Mystery Option" x="1472" y="1024">
+   <properties>
+    <property name="Next 1" type="object" value="110"/>
+    <property name="Next 2" type="object" value="116"/>
+    <property name="Next 3" type="object" value="133"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="115" name="5000 zennies" type="Mystery Option" x="1432" y="1000">
+   <properties>
+    <property name="Amount" type="int" value="5000"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="116" name="extra extra extra rare" type="Mystery Option" x="1448" y="1032">
+   <properties>
+    <property name="Next 1" type="object" value="112"/>
+    <property name="Next 2" type="object" value="115"/>
+    <property name="Next 3" type="object" value="111"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="117" type="Mystery Datum" gid="24" x="1456" y="1552" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="118" type="Mystery Datum" gid="24" x="1232" y="1104" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="130" type="Mystery Datum" gid="24" x="1488" y="624" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="133" name="Unlocker" type="Mystery Option" x="1488" y="1088">
+   <properties>
+    <property name="Name" value="Unlocker"/>
+    <property name="Type" value="item"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="134" type="Mystery Datum" gid="40" x="1328" y="912" width="20" height="43">
+   <properties>
+    <property name="Locked" type="bool" value="true"/>
+    <property name="Next 1" type="object" value="132"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="136" type="Mystery Datum" gid="24" x="1328" y="432" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="137" type="Mystery Datum" gid="24" x="304" y="688" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="138" type="Mystery Datum" gid="40" x="720" y="624" width="20" height="43">
+   <properties>
+    <property name="Locked" type="bool" value="true"/>
+    <property name="Next 1" type="object" value="132"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="139" name="Rank 10" type="Item" x="624" y="48">
+   <properties>
+    <property name="Description" value="A shiney token with the number 10 carved into it. It glows with evil intent."/>
+    <property name="Name" value="Rank 10"/>
+    <property name="Type" value="keyitem"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="140" name="Suragachi, Ranked Navi Familiar" type="NPC" x="656" y="48">
+   <properties>
+    <property name="Asset Name" value="BigBrute"/>
+    <property name="Dialogue Type" value="itemcheck"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Dont Face Player" type="bool" value="false"/>
+    <property name="Item 1" type="object" value="139"/>
+    <property name="Next 1" type="object" value="142"/>
+    <property name="Next 2" type="object" value="141"/>
+    <property name="Text 1" value="Hey, you, Civilian."/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="141" name="Suragachi, Ranked Navi Guard" type="Dialogue" x="576" y="56">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="BigBrute"/>
+    <property name="Next 1" type="object" value="147"/>
+    <property name="Text 1" value="..."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="142" name="Suragachi, Ranked Navi Guard" type="Dialogue" x="608" y="72">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="BigBrute"/>
+    <property name="Next 1" type="object" value="143"/>
+    <property name="Text 1" value="Master. This area is safe. No mafia or officials are in this area."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="143" name="Suragachi, Ranked Navi Guard" type="Dialogue" x="608" y="88">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="player"/>
+    <property name="Next 1" type="object" value="144"/>
+    <property name="Text 1" value="Thank you Suragachi. Continue doing what you do."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="144" name="Suragachi, Ranked Navi Guard" type="Dialogue" x="608" y="104">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="BigBrute"/>
+    <property name="Text 1" value="As you wish master."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="147" name="Suragachi, Ranked Navi Guard" type="Dialogue" x="576" y="64">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="player"/>
+    <property name="Next 1" type="object" value="148"/>
+    <property name="Text 1" value="... Are you following me?"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="148" name="Suragachi, Ranked Navi Guard" type="Dialogue" x="576" y="72">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="BigBrute"/>
+    <property name="Next 1" type="object" value="149"/>
+    <property name="Text 1" value="Watch who you talk to... I have no qualms with deleting you should you pose a threat to my master..."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="149" name="Suragachi, Ranked Navi Guard" type="Dialogue" x="576" y="80">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="player"/>
+    <property name="Next 1" type="object" value="150"/>
+    <property name="Text 1" value="...I'm... just going to go."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="150" name="Suragachi, Ranked Navi Guard" type="Dialogue" x="576" y="88">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="BigBrute"/>
+    <property name="Text 1" value="Smart."/>
    </properties>
    <point/>
   </object>
@@ -411,6 +650,7 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
     <property name="Key Name" value="Rank 10"/>
     <property name="Once" type="bool" value="true"/>
     <property name="Unlock Failed Message" value="you are unranked... begone."/>
+    <property name="Unlocked Message" value="Welcome ranked one..."/>
     <property name="Unlocking Animation Time" value="0.75"/>
     <property name="Unlocking Asset Name" value="bn5cubegreen_bot"/>
    </properties>
@@ -486,7 +726,7 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
    </properties>
    <point/>
   </object>
-  <object id="62" name="Isaiah" type="NPC" x="176" y="1544">
+  <object id="62" name="Mafia Goon" type="NPC" x="176" y="1544">
    <properties>
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
@@ -498,7 +738,7 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
    </properties>
    <point/>
   </object>
-  <object id="63" name="Issabelle" type="NPC" x="176" y="1528">
+  <object id="63" name="Mafia Goon's Girlfriend" type="NPC" x="176" y="1528">
    <properties>
     <property name="Asset Name" value="female-navi-exe4_orange"/>
     <property name="Dialogue Type" value="first"/>
@@ -511,7 +751,7 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
    </properties>
    <point/>
   </object>
-  <object id="88" name="Goon" type="NPC" x="1112" y="528">
+  <object id="88" name="Mafia Goon" type="NPC" x="1112" y="528">
    <properties>
     <property name="Asset Name" value="punk-navi-exe6_navy"/>
     <property name="Dialogue Type" value="first"/>
@@ -524,7 +764,7 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
    </properties>
    <point/>
   </object>
-  <object id="89" name="Goon" type="NPC" x="1160" y="528">
+  <object id="89" name="Mafia Goon" type="NPC" x="1160" y="528">
    <properties>
     <property name="Asset Name" value="female-navi-exe5_purple"/>
     <property name="Dialogue Type" value="first"/>
@@ -537,7 +777,7 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
    </properties>
    <point/>
   </object>
-  <object id="90" name="Goon" type="NPC" x="1136" y="504">
+  <object id="90" name="Mafia Goon" type="NPC" x="1136" y="504">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
@@ -549,7 +789,7 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
    </properties>
    <point/>
   </object>
-  <object id="91" name="Goon" type="NPC" x="1136" y="552">
+  <object id="91" name="Mafia Goon" type="NPC" x="1136" y="552">
    <properties>
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
@@ -559,6 +799,54 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
     <property name="Next 1" type="object" value="92"/>
     <property name="Text 1" value="Our supplier Darin is behind schedule.... profits are going to drop!"/>
     <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="123" type="Mystery Datum" gid="24" x="848" y="368" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="124" type="Mystery Datum" gid="24" x="688" y="496" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="125" type="Mystery Datum" gid="24" x="1264" y="1360" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="126" type="Mystery Datum" gid="24" x="208" y="1616" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="131" type="Mystery Datum" gid="24" x="464" y="432" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="132" name="random item2" type="Mystery Option" x="1544" y="944">
+   <properties>
+    <property name="Next 1" type="object" value="115"/>
+    <property name="Next 2" type="object" value="112"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="152" name="To Undernet 2" type="Radius Warp" x="1704" y="1328">
+   <properties>
+    <property name="Activation Radius" value="0.6"/>
+    <property name="Arrival Animation" value="arrow_down_right_in"/>
+    <property name="Leave Animation" value="arrow_down_right_out"/>
+    <property name="Target Area" value="Ranked Room"/>
+    <property name="Target Object" value="14"/>
    </properties>
    <point/>
   </object>
@@ -682,7 +970,7 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="13" name="Object Layer 6" visible="0" offsetx="0" offsety="-80"/>
+ <objectgroup id="13" name="Object Layer 6" offsetx="0" offsety="-80"/>
  <layer id="8" name="Tile Layer 7" width="55" height="55" offsetx="0" offsety="-96">
   <data encoding="csv">
 0,0,0,172,2147483829,2147483839,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -845,7 +1133,7 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
    </properties>
    <point/>
   </object>
-  <object id="58" name="Brian" type="NPC" x="240" y="1008">
+  <object id="58" name="Mafia Watchman" type="NPC" x="240" y="1008">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
@@ -909,6 +1197,31 @@ But basically, the Ranking sees that there re always 10 ranked navis at any time
     <property name="Text 1" value="You know Alex... THIS is why you never get any women!"/>
    </properties>
    <point/>
+  </object>
+  <object id="127" type="Mystery Datum" gid="24" x="784" y="1008" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="128" type="Mystery Datum" gid="24" x="144" y="720" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="129" type="Mystery Datum" gid="24" x="1648" y="496" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="108"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="135" type="Mystery Datum" gid="40" x="1520" y="944" width="20" height="43">
+   <properties>
+    <property name="Locked" type="bool" value="true"/>
+    <property name="Next 1" type="object" value="132"/>
+    <property name="Type" value="random"/>
+   </properties>
   </object>
  </objectgroup>
 </map>

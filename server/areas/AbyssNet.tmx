@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.11.2" orientation="isometric" renderorder="right-down" width="500" height="500" tilewidth="64" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="97">
+<map version="1.10" tiledversion="1.11.2" orientation="isometric" renderorder="right-down" width="500" height="500" tilewidth="64" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="218">
  <properties>
   <property name="Name" value="Abyss Net"/>
  </properties>
@@ -540,17 +540,6 @@
   <object id="43" gid="618" x="9088" y="3688" width="56" height="88"/>
   <object id="44" gid="618" x="12672" y="8424" width="56" height="88"/>
   <object id="45" gid="618" x="8808" y="12728" width="56" height="88"/>
-  <object id="46" gid="617" x="13592" y="2744" width="28" height="34"/>
-  <object id="52" gid="617" x="13592" y="2712" width="28" height="34"/>
-  <object id="64" gid="617" x="13592" y="2776" width="28" height="34"/>
-  <object id="65" gid="617" x="13592" y="2808" width="28" height="34"/>
-  <object id="66" gid="617" x="13592" y="2840" width="28" height="34"/>
-  <object id="68" gid="617" x="13592" y="2872" width="28" height="34"/>
-  <object id="69" gid="617" x="13560" y="2808" width="28" height="34"/>
-  <object id="70" gid="617" x="13528" y="2808" width="28" height="34"/>
-  <object id="71" gid="617" x="13624" y="2808" width="28" height="34"/>
-  <object id="72" gid="617" x="13656" y="2808" width="28" height="34"/>
-  <object id="73" gid="617" x="13592" y="2680" width="28" height="34"/>
   <object id="74" gid="616" x="2072" y="6648" width="43" height="54"/>
   <object id="75" gid="612" x="16" y="16" width="48" height="64"/>
   <object id="76" gid="612" x="15984" y="16" width="48" height="64"/>
@@ -679,7 +668,7 @@
     <property name="Next Waypoint 7" type="object" value="81"/>
     <property name="Next Waypoint 8" type="object" value="86"/>
     <property name="Next Waypoint 9" type="object" value="89"/>
-    <property name="Wait Time" type="int" value="60"/>
+    <property name="Wait Time" type="int" value="1"/>
     <property name="Waypoint Type" value="random"/>
    </properties>
    <point/>
@@ -751,7 +740,7 @@
     <property name="Next Waypoint 7" type="object" value="96"/>
     <property name="Next Waypoint 8" type="object" value="92"/>
     <property name="Next Waypoint 9" type="object" value="81"/>
-    <property name="Wait Time" type="int" value="1"/>
+    <property name="Wait Time" type="int" value="60"/>
     <property name="Waypoint Type" value="random"/>
    </properties>
    <point/>
@@ -881,6 +870,423 @@
     <property name="Waypoint Type" value="random"/>
    </properties>
    <point/>
+  </object>
+  <object id="97" gid="617" x="3642" y="7288" width="28" height="34"/>
+  <object id="98" gid="617" x="3642" y="7256" width="28" height="34"/>
+  <object id="99" gid="617" x="3642" y="7320" width="28" height="34"/>
+  <object id="100" gid="617" x="3642" y="7352" width="28" height="34"/>
+  <object id="101" gid="617" x="3642" y="7384" width="28" height="34"/>
+  <object id="102" gid="617" x="3642" y="7416" width="28" height="34"/>
+  <object id="103" gid="617" x="3610" y="7352" width="28" height="34"/>
+  <object id="104" gid="617" x="3578" y="7352" width="28" height="34"/>
+  <object id="105" gid="617" x="3674" y="7352" width="28" height="34"/>
+  <object id="106" gid="617" x="3706" y="7352" width="28" height="34"/>
+  <object id="107" gid="617" x="3642" y="7224" width="28" height="34"/>
+  <object id="108" type="Mystery Datum" gid="48" x="14128" y="112" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="109" name="Rank Medal" type="Mystery Datum" x="14096" y="-64">
+   <properties>
+    <property name="Name" value="Rank Medal"/>
+    <property name="Type" value="item"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="161" type="Mystery Datum" gid="48" x="15952" y="48" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="162" type="Mystery Datum" gid="48" x="15920" y="15920" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="163" type="Mystery Datum" gid="48" x="48" y="15952" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="164" type="Mystery Datum" gid="48" x="48" y="48" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="165" type="Mystery Datum" gid="48" x="1016" y="1128" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="166" type="Mystery Datum" gid="48" x="824" y="4968" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="167" type="Mystery Datum" gid="48" x="136" y="7768" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="168" type="Mystery Datum" gid="48" x="664" y="10504" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="169" type="Mystery Datum" gid="48" x="472" y="15048" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="170" type="Mystery Datum" gid="48" x="2680" y="15272" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="171" type="Mystery Datum" gid="48" x="5736" y="15160" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="172" type="Mystery Datum" gid="48" x="7128" y="14984" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="173" type="Mystery Datum" gid="48" x="10552" y="14952" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="174" type="Mystery Datum" gid="48" x="12456" y="15032" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="175" type="Mystery Datum" gid="48" x="14616" y="11208" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="176" type="Mystery Datum" gid="48" x="14744" y="8840" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="177" type="Mystery Datum" gid="48" x="14952" y="5752" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="178" type="Mystery Datum" gid="48" x="15320" y="1736" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="179" type="Mystery Datum" gid="48" x="9544" y="920" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="180" type="Mystery Datum" gid="48" x="6200" y="552" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="181" type="Mystery Datum" gid="48" x="3400" y="664" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="182" type="Mystery Datum" gid="48" x="2328" y="2696" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="183" type="Mystery Datum" gid="48" x="3752" y="7352" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="184" name="Mystery Datum" type="Mystery Datum" gid="48" x="4008" y="9016" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="185" gid="48" x="3592" y="11352" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="186" type="Mystery Datum" gid="48" x="3592" y="11352" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="187" type="Mystery Datum" gid="48" x="6616" y="12360" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="188" type="Mystery Datum" gid="48" x="8072" y="12568" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="189" type="Mystery Datum" gid="48" x="11912" y="11352" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="190" type="Mystery Datum" gid="48" x="13496" y="10472" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="191" type="Mystery Datum" gid="48" x="13800" y="10040" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="192" gid="48" x="13304" y="7144" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="193" type="Mystery Datum" gid="48" x="10760" y="3288" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="194" type="Mystery Datum" gid="48" x="7544" y="2088" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="195" type="Mystery Datum" gid="48" x="4808" y="3288" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="196" type="Mystery Datum" gid="48" x="3464" y="4696" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="197" type="Mystery Datum" gid="48" x="4360" y="7128" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="198" gid="48" x="5800" y="8568" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="199" type="Mystery Datum" gid="48" x="10392" y="9032" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="200" gid="48" x="9320" y="5752" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="201" type="Mystery Datum" gid="48" x="5704" y="6808" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="202" type="Mystery Datum" gid="48" x="7816" y="10840" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="203" type="Mystery Datum" gid="48" x="10008" y="9992" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="204" gid="48" x="8424" y="6264" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="205" type="Mystery Datum" gid="48" x="7728" y="7472" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="206" gid="48" x="6568" y="7928" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="208" type="Mystery Datum" gid="48" x="2680" y="11816" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="209" type="Mystery Datum" gid="48" x="2472" y="9208" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="210" type="Mystery Datum" gid="48" x="1192" y="8952" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="211" type="Mystery Datum" gid="48" x="2064" y="10096" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="212" type="Mystery Datum" gid="48" x="3128" y="11432" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="213" type="Mystery Datum" gid="48" x="3336" y="13400" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="214" type="Mystery Datum" gid="48" x="2600" y="13176" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="215" type="Mystery Datum" gid="48" x="2408" y="13176" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="216" type="Mystery Datum" gid="48" x="9848" y="12296" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="217" type="Mystery Datum" gid="48" x="5368" y="1224" width="20" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="109"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Type" value="random"/>
+   </properties>
   </object>
  </objectgroup>
  <layer id="3" name="Tile Layer 2" width="500" height="500" offsetx="0" offsety="-16">
