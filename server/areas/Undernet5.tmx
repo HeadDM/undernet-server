@@ -1299,8 +1299,8 @@ Were it so easy...</property>
   </object>
   <object id="191" name="Suragachi, Ranked Navi Guard" type="Dialogue" x="328" y="952">
    <properties>
-    <property name="Dialogue Type" value="BigBrute"/>
-    <property name="Mugshot" value="laplace-sf3"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Mugshot" value="BigBrute"/>
     <property name="Text 1" value="You shouldn't be here in the presence of the master... i will be watching you stranger... "/>
    </properties>
    <point/>
