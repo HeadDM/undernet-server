@@ -587,7 +587,7 @@ local unnamed2 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=10,
     enemies={
-        {name="Beetank",rank=4},
+        {name="Mettaur",rank=7},
     },
     obstacles={
         {name="BlastCube"},

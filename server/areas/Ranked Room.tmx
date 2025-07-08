@@ -470,19 +470,5 @@
    </properties>
    <point/>
   </object>
-  <object id="196" gid="48" x="496" y="496" width="20" height="43">
-   <properties>
-    <property name="Next 1" type="object" value="197"/>
-    <property name="Once" type="bool" value="true"/>
-    <property name="Type" value="random"/>
-   </properties>
-  </object>
-  <object id="197" name="Rank Medal" type="Mystery Option" x="432" y="592">
-   <properties>
-    <property name="Name" value="Rank Medal"/>
-    <property name="Type" value="item"/>
-   </properties>
-   <point/>
-  </object>
  </objectgroup>
 </map>

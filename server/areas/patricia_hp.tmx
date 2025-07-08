@@ -92,20 +92,6 @@
     <property name="Target Object" type="int" value="71"/>
    </properties>
   </object>
-  <object id="68" type="Mystery Datum" gid="48" x="624" y="624" width="20" height="43">
-   <properties>
-    <property name="Next 1" type="object" value="69"/>
-    <property name="Once" type="bool" value="true"/>
-    <property name="Type" value="random"/>
-   </properties>
-  </object>
-  <object id="69" name="Rank Medal" type="Mystery Option" x="912" y="816">
-   <properties>
-    <property name="Name" value="Rank Medal"/>
-    <property name="Type" value="item"/>
-   </properties>
-   <point/>
-  </object>
   <object id="89" gid="2147484267" x="480" y="384" width="128" height="128"/>
   <object id="90" gid="625" x="496" y="384" width="128" height="128"/>
   <object id="91" gid="611" x="400" y="848" width="64" height="64"/>
